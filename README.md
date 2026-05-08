@@ -1,6 +1,6 @@
-# scara — SCARA robot using ROS 2
+#SCARA robot using ROS 2
+<img width="962" height="760" alt="Screenshot 2026-05-04 215651" src="https://github.com/user-attachments/assets/8b2069e0-1bfe-4978-8578-820eed140069" />
 
-![SCARA manipulator](assets/scara_manipulator.png)
 
 Project
 -------
