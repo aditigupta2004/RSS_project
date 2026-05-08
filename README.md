@@ -1,13 +1,13 @@
-# SCARA robot using ROS 2
+# ROS2-Based SCARA Manipulator for pick and place using MoveIt2
 <img src="https://github.com/user-attachments/assets/8b2069e0-1bfe-4978-8578-820eed140069" alt="SCARA manipulator" width="480" />
 
 
 Project
 -------
-Purpose: a complete SCARA robot project for simulation, control, and motion planning.
+Purpose: a complete SCARA manipulator project for simulation, control, and motion planning.
 
 Components:
-- `src/scara_description`: robot model (URDF/xacro), visuals, and meshes.
+- `src/scara_description`: manipulator model (URDF/xacro), visuals, and meshes.
 - `src/scara_controller`: ROS 2 controller configurations and controller manager integrations.
 - `src/scara_moveit`: MoveIt 2 configuration for planning (SRDF, planning groups, and launch files).
 
