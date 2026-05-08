@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/shivansh/arduinobot/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/shivansh/arduinobot/install/arduinobot_utils/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages",
+        "/home/shivansh/arduinobot/install/arduinobot_controller/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

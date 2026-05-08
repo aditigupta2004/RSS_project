@@ -1,0 +1,17 @@
+/home/aditi/scara/install/scara_controller/share/scara_controller/launch/controller.launch.py
+/home/aditi/scara/install/scara_controller/share/scara_controller/config/scara_robot_controller.yaml
+/home/aditi/scara/install/scara_controller/share/ament_index/resource_index/package_run_dependencies/scara_controller
+/home/aditi/scara/install/scara_controller/share/ament_index/resource_index/parent_prefix_path/scara_controller
+/home/aditi/scara/install/scara_controller/share/scara_controller/environment/ament_prefix_path.sh
+/home/aditi/scara/install/scara_controller/share/scara_controller/environment/ament_prefix_path.dsv
+/home/aditi/scara/install/scara_controller/share/scara_controller/environment/path.sh
+/home/aditi/scara/install/scara_controller/share/scara_controller/environment/path.dsv
+/home/aditi/scara/install/scara_controller/share/scara_controller/local_setup.bash
+/home/aditi/scara/install/scara_controller/share/scara_controller/local_setup.sh
+/home/aditi/scara/install/scara_controller/share/scara_controller/local_setup.zsh
+/home/aditi/scara/install/scara_controller/share/scara_controller/local_setup.dsv
+/home/aditi/scara/install/scara_controller/share/scara_controller/package.dsv
+/home/aditi/scara/install/scara_controller/share/ament_index/resource_index/packages/scara_controller
+/home/aditi/scara/install/scara_controller/share/scara_controller/cmake/scara_controllerConfig.cmake
+/home/aditi/scara/install/scara_controller/share/scara_controller/cmake/scara_controllerConfig-version.cmake
+/home/aditi/scara/install/scara_controller/share/scara_controller/package.xml

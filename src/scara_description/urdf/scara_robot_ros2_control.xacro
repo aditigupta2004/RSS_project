@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="basic_scara">
+
+  <ros2_control name="RobotSystem" type="system">
+
+    <xacro:property name="PI" value="3.14159265359" />
+
+    <!-- ROS 2 Humble (Ignition Fortress) -->
+    <xacro:if value="$(arg is_ignition)">
+      <hardware>
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </hardware>
+    </xacro:if>
+
+    <!-- ROS 2 Iron or above (Gazebo Sim) -->
+    <xacro:unless value="$(arg is_ignition)">
+      <hardware>
+        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+      </hardware>
+    </xacro:unless>
+
+    <joint name="joint1">
+      <command_interface name="position">
+        <param name="min">-${PI / 2}</param>
+        <param name="max">${PI / 2}</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="joint2">
+      <command_interface name="position">
+        <param name="min">-${PI / 2}</param>
+        <param name="max">${PI / 2}</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="joint3">
+      <command_interface name="position">
+        <param name="min">-${PI / 2}</param>
+        <param name="max">${PI / 2}</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- joint4 is prismatic (Z-axis linear travel) -->
+    <joint name="joint4">
+      <command_interface name="position">
+        <param name="min">-0.15</param>
+        <param name="max">0.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+</robot>

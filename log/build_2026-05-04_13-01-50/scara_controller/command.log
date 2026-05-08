@@ -1,0 +1,6 @@
+Invoking command in '/home/aditi/scara/build/scara_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aditi/scara/src/scara_controller -DCMAKE_INSTALL_PREFIX=/home/aditi/scara/install/scara_controller
+Invoked command in '/home/aditi/scara/build/scara_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aditi/scara/src/scara_controller -DCMAKE_INSTALL_PREFIX=/home/aditi/scara/install/scara_controller
+Invoking command in '/home/aditi/scara/build/scara_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aditi/scara/build/scara_controller -- -j16 -l16
+Invoked command in '/home/aditi/scara/build/scara_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aditi/scara/build/scara_controller -- -j16 -l16
+Invoking command in '/home/aditi/scara/build/scara_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aditi/scara/build/scara_controller
+Invoked command in '/home/aditi/scara/build/scara_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aditi/scara/build/scara_controller

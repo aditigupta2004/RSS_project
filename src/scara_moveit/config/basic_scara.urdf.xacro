@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="basic_scara">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import basic_scara urdf file -->
+    <xacro:include filename="$(find scara_description)/urdf/basic_scara.urdf.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="basic_scara.ros2_control.xacro" />
+
+
+    <xacro:basic_scara_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>
